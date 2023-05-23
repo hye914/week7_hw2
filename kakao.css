@@ -1,0 +1,149 @@
+.container{
+    
+    width:500px;
+    height: 800px;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+
+/*아이템 1*/
+.item1{
+    flex-grow: 1;
+    background-color: white;
+}
+
+.item1{
+    display:flex;
+    flex-grow: 1;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.left p{
+    margin:0%;
+    display : inline;
+}
+
+.center p{
+    display : inline;
+}
+
+.right p{
+    display:inline;
+}
+
+.item2{
+    flex-grow: 2;
+}
+
+.item3{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 h1{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.item4{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4 p{
+    display: inline-block;
+    margin: 0%;
+}
+
+.item5{
+    flex-grow: 2;
+}
+
+.item6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+
+}
+
+#accountid{
+    width:450px;
+    height:65px;
+    border-bottom:3px solid rgb(208, 208, 208);
+}
+
+.item6 p{
+    font-size: 23px;
+    margin-bottom: 0px;
+    color: rgb(208, 208, 208);
+}
+
+.item7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+#accountpass{
+    width:450px;
+    height:65px;
+    border-bottom:3px solid rgb(208, 208, 208);
+}
+
+.item7 p{
+    font-size: 23px;
+    margin-bottom: 0px;
+    color: rgb(208, 208, 208);
+}
+
+.item8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+#login{
+    width:450px;
+    height:65px;
+    background-color: #F7E600;
+    border-radius: 3%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item8 p{
+    font-size: 23px;
+}
+
+.item9{
+    display:flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+.item9 p{
+    display: inline;
+    margin-top: 0%;
+}
+
+.item10{
+    flex-grow: 1;
+}
